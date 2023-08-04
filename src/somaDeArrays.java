@@ -13,7 +13,7 @@ public class somaDeArrays {
         int limite = 10;
         ArrayList<Integer> numeros = new ArrayList<>(limite);
         int total = 0;
-        Random gerador = new Random(limite);
+        Random gerador = new Random((int)Math.random());
         int numeroGerado;
 
 
