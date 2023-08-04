@@ -46,8 +46,7 @@ public class somaDeArrays {
         lerNumero.close();
        System.out.println("O novo valor total é : " + novoTotal);
        System.out.println("Os números da lista são: ");
-        for ( int i = 0; i >= somaDeArrays; ++i) {
 
-        }
+
     }
 }
