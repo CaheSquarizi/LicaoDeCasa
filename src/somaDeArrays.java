@@ -13,7 +13,7 @@ public class somaDeArrays {
         int limite = 10;
         ArrayList<Integer> numeros = new ArrayList<>(limite);
         int total = 0;
-        Random gerador = new Random(limite);
+        Random gerador = new Random((int) Math.random());
         int numeroGerado;
 
 
@@ -45,7 +45,7 @@ public class somaDeArrays {
         }
         lerNumero.close();
        System.out.println("O novo valor total é : " + novoTotal);
-       System.out.println("Os números da lista são: ");
+    //   System.out.println("Os números da lista são: ");
 
 
     }
